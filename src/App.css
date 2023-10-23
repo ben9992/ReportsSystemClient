@@ -1,0 +1,91 @@
+/* Styles for the menu */
+.nav-item {
+  margin: 10px 0;
+}
+
+.menu-container {
+  background-color: #57569a; /* Background of the entire menu */
+  height: 100%;
+  padding: 10px 0;
+}
+
+.custom-link {
+  color: #7cbce2; /* Text color of the menu items */
+  background-color: #7cbce2; /* Background color of the buttons (menu items) */
+  padding: 15px 0 15px 15px !important;
+  border-radius: 5px; /* Slight rounded corners for the buttons */
+  transition: 0.3s; /* Smooth transition effect for hover */
+}
+
+.custom-link:hover {
+  background-color: #45488b; /* Change the background color slightly on hover */
+  text-decoration: none; /* Remove the underline on hover */
+
+  color: #6baed0 !important;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: large !important;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.menu-item-icon-padding {
+  padding: 0 10px 0 0;
+}
+
+/* Button Styles */
+
+.btn-custom {
+  background-color: #57569a !important; /* Button background color */
+  border: none;
+  transition: 0.3s; /* Transition for hover effect */
+}
+
+.btn-custom:hover {
+  background-color: #45488b !important; /* Button background color on hover */
+}
+
+.custom-modal-size .modal-dialog {
+  width: 80vw !important; /* Adjust the viewport width percentage as needed */
+  max-width: 100% !important;
+  height: 70vh !important; /* Adjust the viewport height percentage as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.custom-modal-size .modal-content {
+  height: 70vh !important;
+  max-height: 100% !important;
+  overflow: auto !important;
+}
